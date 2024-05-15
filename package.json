@@ -1,0 +1,13 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "marp ./slide.md -p --html --theme ./style.css  -c .marprc.yml",
+    "pdf": "marp ./slide.md --pdf --html --theme ./style.css  -c .marprc.yml",
+    "pptx": "marp ./slide.md --pptx --html --theme ./style.css  -c .marprc.yml"
+  },
+  "author": "",
+  "license": "ISC"
+}

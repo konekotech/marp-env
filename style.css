@@ -1,0 +1,110 @@
+/* @theme style */
+
+@import "default";
+:root{
+  font-family: "Hiragino Kaku Gothic ProN", "sans-serif";
+}
+
+/* クラス名未指定全スライド共通設定 */
+section {
+  /* フォント指定 */
+  color: #1D1D1F;
+  font-size: 25px;
+  /* スライドのサイズを指定 デフォルトでは16:9 */
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+
+section:not(.top) h1{
+  font-size: 40px;
+  color: #1D1D1F;
+  position: absolute;
+  top: 50px;
+  left: 50px; /* 左端に配置 */
+  right: 50px; /* 右端に配置 */
+  text-align: center; /* テキストを中央揃えにする */
+  /* border-bottom: 10px solid blue; */
+}
+
+section header {
+  text-align: right;
+  color: #555555;
+}
+
+section footer {
+  color: #555555;
+}
+
+/*ページ番号*/
+section::after {
+  font-size: 15px;
+	right: 30px; /* works as footer margin */
+	width: calc(100% - 60px);
+	text-align: center;
+	padding-top: 15px;
+}
+
+/* topクラス*/
+section.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.top h1 {
+  color: #1D1D1F;
+  font-size: 50px;
+  position: relative; /* 親要素を相対位置に設定する */
+  text-align: center;
+  padding: 0 80px 10px 80px;
+  max-width: 800px;
+  /* border-bottom: 8px solid blue; */
+}
+
+
+
+
+section.top h2 {
+  color: 1d1d1f;
+  margin-top: 20px;
+}
+
+code {
+  font-family: "Menlo" monospace !important;
+  background-color: white;
+}
+
+pre {
+  background-color: #FFFFFF;
+}
+
+/* strong,b {
+  color: #4285f4;
+} */
+
+[class^="language-"] {
+  color: 1d1d1f;
+}
+
+[class^="hljs-"] {
+  color: 1d1d1f;
+}
+
+.hljs-keyword, .hljs-built_in{
+  font-weight: bold;
+}
+
+.hljs-string, .hljs-title{
+  color: 1d1d1f;
+}
+
+.hljs-comment{
+  color: #999999;
+}
+
+.code-title {
+  color:1d1d1f;
+  font-weight: bold;
+  text-align: center;
+}
