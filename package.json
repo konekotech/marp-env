@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "marp ./slide.md -p --html --theme ./style.css  -c .marprc.yml",
-    "pdf": "marp ./slide.md --pdf --html --theme ./style.css  -c .marprc.yml",
-    "pptx": "marp ./slide.md --pptx --html --theme ./style.css  -c .marprc.yml"
+    "dev": "env $(cat .env | xargs) marp ./slide.md -p --html --theme ./.styles/`echo $THEME`.css  -c .marprc.yml --allow-local-files",
+    "pdf": "env $(cat .env | xargs) marp ./slide.md --pdf --theme ./.styles/`echo $THEME`.css  -c .marprc.yml  --allow-local-files",
+    "pptx": "env $(cat .env | xargs) marp ./slide.md --pptx --theme ./.styles/`echo $THEME`.css  -c .marprc.yml --allow-local-files"
   },
   "author": "",
   "license": "ISC"
