@@ -22,7 +22,10 @@ This is the first slide.
 
 # Slide 2
 
+## This is the second slide.
+
 You can insert images like this.
+You can also insert images from the web.
 
 <dev style="width: 400px;position: absolute; top: 300px; right: 50px;">
  <img src="./images/cat1.jpg">
