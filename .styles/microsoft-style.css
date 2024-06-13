@@ -128,6 +128,15 @@ pre {
   color: #4285f4;
 } */
 
+section:not(.top) h2,
+section:not(.top) h3,
+section:not(.top) h4,
+section:not(.top) h5,
+section:not(.top) h6 {
+  padding: 0;
+  margin: 0.2rem;
+}
+
 [class^="language-"] {
   color: #444444;
 }
