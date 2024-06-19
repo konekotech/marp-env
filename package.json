@@ -1,0 +1,13 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "export $(cat .env | grep -v ^#) && marp ./slide.md -p --html --theme ./.styles/$THEME.css  -c .marprc.yml --allow-local-files",
+    "pdf": "export $(cat .env | grep -v ^#) && marp ./slide.md --pdf --html --theme ./.styles/`echo $THEME`.css  -c .marprc.yml  --allow-local-files",
+    "pptx": "export $(cat .env | grep -v ^#) && marp ./slide.md --pptx --html --theme ./.styles/`echo $THEME`.css  -c .marprc.yml --allow-local-files"
+  },
+  "author": "",
+  "license": "ISC"
+}
