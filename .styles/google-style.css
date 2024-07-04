@@ -191,3 +191,7 @@ h6 strong{
 ul {
     padding-left: 1em; /* 余白を調整する */
 }
+
+footer {
+  font-size: 15px;
+}
