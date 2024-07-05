@@ -21,7 +21,7 @@ section {
 }
 
 section:not(.top) h1{
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 400;
   color: #444444;
   position: absolute;
