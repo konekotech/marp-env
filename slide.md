@@ -3,7 +3,7 @@ marp: true
 size: 4:3
 theme: google-style
 paginate: true
-footer: "@konekotech All rights reserved."
+footer: Copyright <span>&copy;</span> 2024 konekotech. All rights reserved.
 ---
 
 <!--
