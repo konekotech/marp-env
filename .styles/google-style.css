@@ -13,7 +13,7 @@ section {
   /* フォント指定 */
   color: #444444;
   font-size: 1.0rem;
-  line-height: 2.3rem;
+  line-height: 2.3em;
   font-weight: 400;
   /* スライドのサイズを指定 デフォルトでは16:9 */
   width: 100%;
