@@ -17,6 +17,7 @@ _class: top
 # Slide 1
 
 This is the first slide.
+Mixing text and images is easy.
 
 ---
 

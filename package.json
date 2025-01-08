@@ -9,5 +9,8 @@
     "pptx": "export $(cat .env | grep -v ^#) && marp ./slide.md --pptx --html --theme ./.styles/`echo $THEME`.css  -c .marprc.yml --allow-local-files"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.0.4"
+  }
 }
